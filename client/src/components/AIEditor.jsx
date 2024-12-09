@@ -61,7 +61,7 @@ const AIEditor = () => {
     setError("");
 
     try {
-      const response = await fetch("http://localhost:8501/generate_blog", {
+      const response = await fetch("https://blogbliss-9bx4.onrender.com/generate_blog", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -98,7 +98,7 @@ const AIEditor = () => {
     setSummaryError("");
 
     try {
-      const response = await axios.post("http://localhost:8501/summarize", {
+      const response = await axios.post("https://blogbliss-9bx4.onrender.com/summarize", {
         content: generatedBlog,
         max_length: 150, // Max number of words in the summary
         min_length: 100,  // Min number of words in the summary
