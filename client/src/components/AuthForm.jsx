@@ -27,7 +27,7 @@ function AuthForm({ mode = 'login' }) {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        const url = mode === 'signup' ? 'http://localhost:3000/signup' : 'http://localhost:3000/login';
+        const url = mode === 'signup' ? 'https://blogbliss-9l89.onrender.com/signup' : 'https://blogbliss-9l89.onrender.com/login';
 
         try {
             const response = await axios.post(url, { username, email, password });
