@@ -27,7 +27,7 @@ const Home = () => {
       try {
 
         // fetching data from backend
-        const response = await axios.get('http://localhost:3000/posts', {
+        const response = await axios.get('https://blogbliss-9l89.onrender.com/posts', {
           params: { page: currentPage },
         });
 
