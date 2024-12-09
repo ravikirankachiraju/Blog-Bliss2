@@ -156,7 +156,7 @@ const AIEditor = () => {
 
     try {
       // Send POST request with Authorization header
-      const response = await axios.post('http://localhost:3000/posts', formData, {
+      const response = await axios.post('https://blogbliss-9l89.onrender.com/posts', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
           'auth-token':token, // Correctly send token as 'Bearer <token>'
