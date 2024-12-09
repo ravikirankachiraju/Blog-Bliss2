@@ -51,7 +51,7 @@ const Editor = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:3000/posts', formData, {
+      const response = await axios.post('https://blogbliss-9l89.onrender.com/posts', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
           'auth-token': localStorage.getItem('token'),
