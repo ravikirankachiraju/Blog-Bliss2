@@ -16,8 +16,8 @@ const Footer = () => {
         <div>
           <h3>HELPFUL LINKS</h3>
           <ul className="links">
-            <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> &nbsp; &nbsp;&nbsp;FAQs</a></li>
-            <li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> &nbsp; &nbsp;&nbsp;How to use?</a></li>
+            <li><a href=""><i class="fa fa-chevron-right" aria-hidden="true"></i> &nbsp; &nbsp;&nbsp;FAQs</a></li>
+            <li><a href="https://youtu.be/t_ampPStmHE?si=T3_-lOjC3LLpN6eD"><i class="fa fa-chevron-right" aria-hidden="true"></i> &nbsp; &nbsp;&nbsp;How to use?</a></li>
             <li><a href="/feedback"><i class="fa fa-chevron-right" aria-hidden="true"></i> &nbsp; &nbsp;&nbsp;Feedback</a></li>
             <li><a href="/about"><i class="fa fa-chevron-right" aria-hidden="true"></i> &nbsp; &nbsp;&nbsp;About Us</a></li>
           </ul>
@@ -35,7 +35,7 @@ const Footer = () => {
           <h3>CONNECT WITH US</h3>
           <ul className="social">
             <li><a href="https://x.com/krk_sharma45?t=-ph7yg9pJsjFx35ZFa6QzA&s=09">X</a></li>
-            <li><a href="#">Instagram <i class="fab fa-instagram social-icon"></i></a></li>
+            <li><a href="https://www.instagram.com/harshath_gaini?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram <i class="fab fa-instagram social-icon"></i></a></li>
             <li><a href="#">LinkedIn <i class="fab fa-linkedin social-icon"></i></a></li>
             <li><a href="https://github.com/ravikirankachiraju">Github <i class="bi bi-github"></i></a></li>
           </ul>
